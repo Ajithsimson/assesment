@@ -9,7 +9,7 @@ const Popup = ({ type, onCancel, onConfirm }) => {
           {type === 'confirm' && (
             <button onClick={onConfirm} style={styles.button}>Confirm</button>
           )}
-          <button onClick={onCancel} style={styles.button}>OK</button>
+          <button onClick={onCancel} style={styles.button}>No</button>
         </div>
       </div>
     </div>
