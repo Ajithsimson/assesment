@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CancelBtn = ({ onAlert, onCancel }) => {
+const CancelBtn = ({ onCancel }) => {
   return (
     <div>
     <button style={{
